@@ -104,7 +104,7 @@ export default function HomePage() {
                 className="card group hover:border-primary-200 fade-in"
               >
                 <div className={`w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br ${service.color} rounded-xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform`}>
-                  <service.icon className="text-white" size={24} className="sm:w-8 sm:h-8" />
+                  <service.icon className="text-white w-6 h-6 sm:w-8 sm:h-8" size={24} />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2">
                   {service.title}
