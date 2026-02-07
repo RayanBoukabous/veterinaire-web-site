@@ -7,7 +7,8 @@ import {
   Syringe,
   Activity,
   FileText,
-  Phone
+  Phone,
+  Scissors
 } from 'lucide-react'
 import Link from 'next/link'
 
@@ -53,6 +54,18 @@ export default function ServicesPage() {
         'Soins dentaires de base',
       ],
       color: 'from-blue-500 to-blue-600',
+    },
+    {
+      icon: Scissors,
+      title: 'Petite chirurgie',
+      description: 'Interventions chirurgicales mineures réalisées à domicile dans un environnement sécurisé et stérile.',
+      features: [
+        'Stérilisation',
+        'Ablation de tumeurs bénignes',
+        'Sutures et soins post-opératoires',
+        'Interventions mineures',
+      ],
+      color: 'from-red-500 to-pink-600',
     },
     {
       icon: Activity,

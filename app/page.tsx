@@ -8,7 +8,8 @@ import {
   Clock, 
   Users,
   ArrowRight,
-  CheckCircle
+  CheckCircle,
+  Scissors
 } from 'lucide-react'
 
 export default function HomePage() {
@@ -87,10 +88,10 @@ export default function HomePage() {
                 color: 'from-accent-500 to-accent-600',
               },
               {
-                icon: Shield,
-                title: 'Conseils santé',
-                description: 'Guidance professionnelle pour le bien-être de votre animal',
-                color: 'from-blue-500 to-blue-600',
+                icon: Scissors,
+                title: 'Petite chirurgie',
+                description: 'Interventions chirurgicales mineures réalisées à domicile',
+                color: 'from-red-500 to-pink-600',
               },
               {
                 icon: Users,
